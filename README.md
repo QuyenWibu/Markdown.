@@ -51,7 +51,7 @@ Trong đó:
  2. **Inline elements** chỉ chiếm phần nhỏ không gian web và không bắt đầu dòng mới của trang web. Chúng thường dùng để định dạng nội dung bên trong của **block level elements**.
   
   **Block-Level Tags**
-3 block level tags** của mỗi trang HTML cần có những tag như là `<html>`, `<head>`, và `<body>`.
+**3 block level tags** của mỗi trang HTML cần có những tag như là `<html>`, `<head>`, và `<body>`.
 
 1. Tag `<html></html>` là element cao nhất dùng để đóng gói mỗi trang HTML.
 2. Tag `<head></head>` chứa các thông tin meta như là tiêu đề trang và charset.
@@ -74,7 +74,7 @@ Nếu bạn muốn tìm hiểu thêm về tag **HTML**, hãy cân nhắc xem qua
   
  > HTML là một ngôn ngữ đánh dấu siêu văn bản nên nó sẽ có vai trò xây dựng cấu trúc siêu văn bản trên một website, hoặc khai báo các tập tin kỹ thuật số (media) như hình ảnh, video, nhạc. Tuy nhiên, HTML có ưu và nhược điểm của riêng nó.
   
-  **Ưu điểm:**
+**Ưu điểm:**
 * Được sử dụng rộng rãi, có rất nhiều nguồn tài nguyên hỗ trợ và cộng đồng sử dụng lớn.
 * Học đơn giản và dễ hiểu.
 * Mã nguồn mở và hoàn toàn miễn phí.
@@ -82,7 +82,7 @@ Nếu bạn muốn tìm hiểu thêm về tag **HTML**, hãy cân nhắc xem qua
 * Tiêu chuẩn thế giới được vận hành bởi World Wide Web Consortium (W3C).
 * Dễ dàng tích hợp với các ngôn ngữ backend như PHP, Python…
   
-  **Khuyết điểm:**
+**Khuyết điểm:**
 
 * Được dùng chủ yếu cho web tĩnh. Đối với các tính năng động như update hay realtime thời gian thực, bạn cần sử dụng JavaScript hoặc ngôn ngữ backend bên thứ 3 như PHP.
 * Một số trình duyệt chậm hỗ trợ tính năng mới.
