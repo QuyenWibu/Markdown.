@@ -18,56 +18,96 @@ Cha đẻ của **HTML** là **Tim Berners-Lee**, cũng là người khai sinh r
 ### 3.Cấu trúc của HTML
 > Mỗi trang HTML chứa một bộ các **tag** (cũng được gọi là ***elements***). Mỗi thẻ sẽ có những tác dụng nhất định, giúp xây dựng nên một cấu trúc hoàn chỉnh cho Website. Bạn có thể xem như là việc xây dựng từng khối của một trang web. Nó tạo thành cấu trúc cây thư mục bao gồm section, paragraph, heading, và những khối nội dung khác.
 > Hầu hết các HTML elements đều có tag mở và tag đóng với cấu trúc như `<tag></tag>`.
-
- Để biết bố cục HTML của một trang web như thế nào, bạn có thể xem code ví dụ của một trang HTML được cấu trúc như thế nào:
- 
-     <!DOCTYPE html>
-
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML cơ bản</title>
-    </head>
-    
-    <body>
-         <h1>HTML là gì?</h1>
-         <p>HTML là viết tắt của cụm từ Hypertext Markup Language (tạm dịch là Ngôn ngữ đánh dấu siêu văn bản). HTML được sử dụng để tạo và cấu trúc các thành phần trong trang web hoặc ứng dụng, phân chia các đoạn văn, heading, titles, blockquotes… và HTML không phải là ngôn ngữ lập trình.</p>
-    </body>
-    
-Trong đó:
-* `<!DOCTYPE html>`: khai báo kiểu dữ liệu hiển thị
-* `<html>` và `</html>`: cặp thẻ bắt buộc, element cấp cao nhất, có nhiệm vụ đóng gói tất cả nội dung của trang HTML.
-* `<head>` và `</head>`: khai báo các thông tin meta của trang web như: tiêu đề trang, charset
-* `<title>` và `</title>`: cặp thẻ nằm bên trong thẻ <head>, dùng để khai báo tiêu đề của trang
-* `<body>` và `</body>`: cặp thẻ dùng để đóng gói tất cả các nội dung sẽ hiển thị trên trang
-* `<h1></h1>`, `<h2></h2>`: định dạng dữ liệu dạng heading. Thông thường có 6 cấp độ heading trong HTML, trải dài từ `<h1>` tới `<h6>`. Trong đó, `<h1>` là cấp độ heading cao nhất và `<h6>` là cấp độ heading thấp nhất.
-* `<p>` và `</p>`: cặp thẻ chứa các đoạn văn bản của trang web
-  
- #### *Các tag thông dụng của HTML*
- > HTML tags được sử dụng chủ yếu là 2 loại chính: **block-level tags** và **inline tags**.
+     #### *Các tag thông dụng của HTML*
+HTML tags được sử dụng chủ yếu là 2 loại chính: **block-level tags** và **inline tags**.
   
  1. **Elements Block-level** : đây là loại tag cấp cao nhất, sẽ sử dụng toàn không gian trang web và luôn bắt đầu dòng mới của trang web. **3 block-level tags** mà tất cả các trang HTML đầu cần có đó là `<html></html>`, `<head></head>` và `<body></body>`.
  2. **Inline elements** chỉ chiếm phần nhỏ không gian web và không bắt đầu dòng mới của trang web. Chúng thường dùng để định dạng nội dung bên trong của **block level elements**.
-  
-  **Block-Level Tags**
-**3 block level tags** của mỗi trang HTML cần có những tag như là `<html>`, `<head>`, và `<body>`.
 
-1. Tag `<html></html>` là element cao nhất dùng để đóng gói mỗi trang HTML.
-2. Tag `<head></head>` chứa các thông tin meta như là tiêu đề trang và charset.
-3. Cuối cùng, `<body></body>` tag dùng để đóng gói tất cả nội dung sẽ hiện trên trang.
-  
-  **Inline Tags**
-  Inline tags thường được dùng để định dạng, tạo bố cục cho nội dung bên trong của block-level tags.. Ví dụ như, tag `<strong></strong>` sẽ định dạng chữ **in đậm**, trong khi đó tag `<em></em>` sẽ định dạng chữ ***in nghiên.***
-
-**Hyperlinks** cũng là yếu tố **element** mà cần tag `<a></a>` và **attributes href** để xác định link cụ thể: 
+ Để biết bố cục HTML của một trang web như thế nào, bạn có thể xem code ví dụ của một trang HTML được cấu trúc như thế nào:
+ 
+     <!--<!DOCTYPE html>: khai báo kiểu dữ liệu hiển thị-->
+      <!DOCTYPE html>
+       <html>
+      <!--<html> và </html>: cặp thẻ bắt buộc, element cấp cao nhất, có nhiệm vụ đóng gói tất cả nội dung của trang HTML.-->
+      
+      <!--<head> và </head>: khai báo các thông tin meta của trang web như: tiêu đề trang, charset
+      <head>
+        <!-- Phần đầu -->
+        <!--charset="utf-8" dùng để gõ tiếng việt tránh bị lỗi hiển thị trên website-->
+            <meta charset="utf-8">
+        <!--Tiêu đề của trang-->
+            <title>Thịnh cute</title>
+    </head>
+    <!-- Phần thân -->
+    <!--comments ctrl + /-->
     
-     <a href="[https://topdev.vn/](https://fullstack.edu.vn/learning/html-css?id=89ffcad4-fa36-40db-aa4b-639ad4397feb)">html và css cơ bản</a>
+    <!--<body> và </body>: cặp thẻ dùng để đóng gói tất cả các nội dung sẽ hiển thị trên trang
+    <body>
+    
+    <!--  1. h1 - h6 - heading - tiêu đề(Cỡ chữ sẽ giảm dần từ h1 -> h6)-->
+            <h1>Thịnh có chút xíu</h1>
+            <h2>Thịnh có chút xíu</h2>
+            <h3>Thịnh có chút xíu</h3>
+            <h4>Thịnh có chút xíu</h4>
+            <h5>Thịnh có chút xíu</h5>
+            <h6>Thịnh có chút xíu</h6>
+               
+    <!--2. p - paragragh - văn bản-->
+            <p>Em iu anh Đăng nhất trên đời.</p>
+            
+    <!--3. img - ảnh-->
+                <!--ảnh. alt là nếu ảnh lỗi sẽ hiện chữ-->
+        <img src="https://o.vdoc.vn/data/image/2022/11/09/song-da.jpg" alt="ảnh sông">
 
-Ảnh cũng là **element inline**. Bạn có thể thêm ảnh bằng cách sử dụng tag `<img>` mà không cần tag đóng. Nhưng bạn cũng cần sử dụng **attribute src** để xác định nguồn ảnh, ví dụ như:
+    <!--4. a - anchor - neo liên kết(Hyperlinks)-->
+        <a href="https://shopee.vn/product/579123024/20133428257">trang hoa</a>
+       
+ 
+    <!--5. ul, li - unordered list(danh sách sắp xếp tùy ý), list(thể hiện danh sách)-->
+          <!--ul .list nhanh bằng cách thêm dấu sao li*(số list)-->
+            <ul>
+                <li>Quóc Thinh đz</a></li>
+                
+                <li>Quốc Thịnh dú to</li>
+                <li>Quốc Thịnh 3s</li>
+                <li>Clip nóng  QT</li>
+            </ul>
 
-    <img src="/images/example.jpg" alt="Example image">
+    <!--6. table - bảng - gồm thead(phần đầu) - tbody(phần thân)-->
+            <table>
+                <thead>
+                    <!--phần đầu-->
+                       <th>stt</th>
+                       <th>Tên</th>
+                       <th>Địa chỉ</th>
+               </thead>
+                <tbody>
+                    <!--dòng-->
+                    <tr>
+                        <td>1</td>
+                        <td>Quốc THịnh</td>
+                        <td>Trảng cò </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
 
+    <!--7. input - ô nhập-->
+             <!--nhập chữ -->
+                <input type="Text">
+             <!-- dấu tích-->
+                <input type="checkbox">
+             <!--giống checkbox nhưng chỉ chọn đc 1 cái.name giống nhau chỉ chọn được 1 cái-->
+                <input name="gender" type="radio">
+                <input name="gender" type="radio">
+                <input name="gender" type="radio">
+           
+    <!--8. button - nút bấm vào-->
+                <button>đăng kí</button>
+        </body>
+    </html>
+   
 Nếu bạn muốn tìm hiểu thêm về tag **HTML**, hãy cân nhắc xem qua **[cheat sheet HTML](https://topdev.vn/blog/wp-content/uploads/2021/01/WSU-HTML-Cheat-Sheet.pdf)**
   
  ### 4.Ưu, nhược điểm của HTML
@@ -112,18 +152,16 @@ Với khả năng tương thích cao, HTML khi kết hợp cùng **[CSS](https:/
   
 > **Website động (dynamic web)** – Là một website sẽ giao tiếp với một máy chủ để gửi nhận dữ liệu, các dữ liệu đó sẽ gửi ra ngoài cho người dùng bằng văn bản HTML và trình duyệt sẽ hiển thị nó. Để một website có thể giao tiếp với máy chủ web thì sẽ dùng một số ngôn ngữ lập trình dạng server-side như PHP, ASP.NET, Ruby,..để thực hiện. Ví dụ như một website làm bằng WordPress là website động.
   
-### 7.Các phần mềm để lập trình HTML
+ ### 7.Các phần mềm để lập trình HTML
   Để lập trình web hiệu quả và tiết kiệm thời gian, công sức, bạn có thể sử dụng các phần mềm lập trình HTML miễn phí và hiệu quả dưới đây:
 
 * [Sublime Text](https://topdev.vn/blog/theme-sublime-text/)
 * [Visual Studio Code](https://topdev.vn/blog/vs-code-theme/) (VS Code)
 * [Atom](https://topdev.vn/blog/text-editors-atom-va-sublime/)
   
-### 8.Tài nguyên tham khảo HTML
+### 9.Tài nguyên tham khảo HTML
   HTML là thành phần cực kỳ quan trọng của một website. Các thiết lập và cấu trúc HTML được vận hành và phát triển bởi World Wide Web Consortium (W3C). Bạn có thể kiểm tra tình trạng mới nhất của HTML bất kỳ lúc nào trên trang [W3C’s website.](https://www.w3.org/)
-  
-Học full từ cơ bản đến nâng cao **[tại đây](https://fullstack.edu.vn/learning/html-css?id=278ad346-397b-4818-81f9-be421edbbdd4)**
-  
+
 ***by Tensoract***
   
   
