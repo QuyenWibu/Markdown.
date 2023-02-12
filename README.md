@@ -24,7 +24,7 @@ HTML tags được sử dụng chủ yếu là 2 loại chính: **block-level ta
  1. **Elements Block-level** : đây là loại tag cấp cao nhất, sẽ sử dụng toàn không gian trang web và luôn bắt đầu dòng mới của trang web. **3 block-level tags** mà tất cả các trang HTML đầu cần có đó là `<html></html>`, `<head></head>` và `<body></body>`.
  2. **Inline elements** chỉ chiếm phần nhỏ không gian web và không bắt đầu dòng mới của trang web. Chúng thường dùng để định dạng nội dung bên trong của **block level elements**.
 
- Để biết bố cục HTML của một trang web như thế nào, bạn có thể xem code ví dụ của một trang HTML được cấu trúc như thế nào:
+ Để biết các **tag** HTML của một trang web như thế nào, bạn có thể xem code ví dụ của một trang HTML chứa các **tag** thông dụng:
  
      <!--<!DOCTYPE html>: khai báo kiểu dữ liệu hiển thị-->
       <!DOCTYPE html>
@@ -105,6 +105,14 @@ HTML tags được sử dụng chủ yếu là 2 loại chính: **block-level ta
            
     <!--8. button - nút bấm vào-->
                 <button>đăng kí</button>
+                
+    <!--9. div - là thẻ được dùng để nhóm nhiều phần tử HTML lại với nhau-->
+
+        <p> dinh nghia the div la gi </p>
+        <p> tac dung cua the div trong HTML </p>
+        <p> phan biet su khac nhau giua the span va the div </p>
+        </div>  
+        
         </body>
     </html>
    
