@@ -167,7 +167,7 @@ Với khả năng tương thích cao, HTML khi kết hợp cùng **[CSS](https:/
 * [Visual Studio Code](https://topdev.vn/blog/vs-code-theme/) (VS Code)
 * [Atom](https://topdev.vn/blog/text-editors-atom-va-sublime/)
   
-### 9.Tài nguyên tham khảo HTML
+### 8.Tài nguyên tham khảo HTML
   HTML là thành phần cực kỳ quan trọng của một website. Các thiết lập và cấu trúc HTML được vận hành và phát triển bởi World Wide Web Consortium (W3C). Bạn có thể kiểm tra tình trạng mới nhất của HTML bất kỳ lúc nào trên trang [W3C’s website.](https://www.w3.org/)
 
 ***by Tensoract***
